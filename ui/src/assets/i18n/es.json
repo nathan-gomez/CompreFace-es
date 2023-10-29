@@ -1,0 +1,376 @@
+{
+  "common": {
+    "capital": {
+      "change": "Cambiar",
+      "create": "Crear",
+      "clone": "Clonar",
+      "copy": "Copiar",
+      "test": "Test",
+      "cancel": "Cancelar",
+      "close": "Cerrar",
+      "save": "Guardar",
+      "yes": "Si",
+      "no": "No",
+      "add": "Añadir",
+      "rename": "Renombrar",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "ok": "Ok",
+      "images": "imagenes",
+      "submit": "Enviar"
+    },
+    "name": "Nombre",
+    "email": "Email",
+    "type": "Tipo",
+    "create": "Crear",
+    "unknown_error": "Ocurrió un error",
+    "input_lengh_err": "Límite de 50 caracteres alcanzado",
+    "forbiden_chars_err": "El nombre no puede contener los siguientes caracteres: ';', '/', '\\'"
+  },
+  "login": {
+    "email": "E-mail",
+    "email_placeholder": "Ingrese E-mail",
+    "password_placeholder": "Ingrese Contraseña",
+    "password": "Contraseña",
+    "no_account": "No tienes una cuenta?",
+    "sign_up": "Registrarse",
+    "create_account": "Crear una cuenta",
+    "email_hint": "El email debe tener el formato correcto",
+    "password_hint": "Contraseña requerida",
+    "login": "Ingresar",
+    "password_recovery": "Olvidaste tu contraseña?"
+  },
+  "registration": {
+    "title": "Registrarse",
+    "first_name": "Primer Nombre",
+    "last_name": "Apellido",
+    "email": "E-mail",
+    "password": "Contraseña",
+    "confirm_password": "Confirmar Contraseña",
+    "password_restriction": "Mínimo de 8 caracteres",
+    "password_incorrect": "Contraseña del usuario incorrecta",
+    "password_dont_match": "Las contraseñas no son iguales",
+    "name_restriction": "Primer nombre es obligatorio",
+    "last_name_restriction": "Apellido es obligatorio",
+    "email_hint": "El email debe tener el formato correcto",
+    "login": "Ingresar",
+    "have_account": "Ya tienes una cuenta?",
+    "sign_up": "Registrarse",
+    "statistics": "Permitir el envio de estadísticas anónimas para mejorar el producto",
+    "more_info": "Mas información",
+    "first_name_placeholder": "Ingrese Primer Nombre",
+    "last_name_placeholder": "Ingrese Apellido",
+    "password_placeholder": "Ingrese Contraseña",
+    "email_placeholder": "Ingrese E-mail",
+    "confirm_password_placeholder": "Confirmar Contraseña"
+  },
+  "change_password": {
+    "old_password": "Contraseña Antigua",
+    "new_password": "Contraseña Nueva",
+    "enter_password": "Ingrese Contraseña",
+    "repeate_password": "Repita la Contraseña"
+  },
+  "toolbar": {
+    "logout": "Salir",
+    "change_password": "Cambiar Contraseña",
+    "user_info": "Cambiar perfil",
+    "user_info_change": "Cambiar nombre de perfil",
+    "user_avatar_info": "Avatar del Usuario",
+    "logo": "CompreFace logo",
+    "signup": "Registrarse"
+  },
+  "applications": {
+    "build": "Version",
+    "caption": "Tabla de Aplicaciones",
+    "title": "Aplicaciones",
+    "placeholder": "Ingrese Nombre de la App",
+    "first_steps_title": "Aplicaciones",
+    "name": "Nombre de App",
+    "owner": "Dueño",
+    "no_application_msg": "No tienes aplicaciones. Crea una nueva aplicacion o contacta al administrador para añadir una existente.",
+    "first_steps_info": "El primer paso para usar CompreFace es crear una aplicación. Una aplicación es donde puedes \n crear y administrar los servicios de reconocimiento.",
+    "create": {
+      "title": "Crear una aplicación",
+      "button": "Crear Nuevo",
+      "add_button": "Crear Aplicación"
+    },
+    "error_msg": "Una aplicación con este nombre ya existe.",
+    "header": {
+      "title": "Aplicación",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "owner": "Dueño",
+      "delete_dialog": {
+        "title": "Eliminar Aplicación",
+        "warn_information": "y toda la información relacionada va a ser eliminada",
+        "confirmation_question": "Estas seguro"
+      },
+      "edit_dialog": {
+        "title": "Editar aplicación",
+        "rename": "Renombrar",
+        "name": "Nombre"
+      }
+    },
+    "search": {
+      "title": "Buscar aplicación"
+    }
+  },
+  "recovery": {
+    "password_recovery": "Olvidaste tu Contraseña",
+    "label": "Ingresar Email",
+    "email_check": "Verifica Tu Email y Sigue las Instrucciones"
+  },
+  "models": {
+    "caption": "Tabla de colecciones de caras",
+    "title": "Modelos",
+    "name": "Nombre",
+    "type": "Tipo",
+    "api_key": "API key",
+    "header": "Servicio",
+    "actions": "Acciones",
+    "error_msg": "Modelo con este nombre ya existe",
+    "create_model_info": "Crea uno de los servicios para reconocimiento facial: Face Recognition, Face Detection or Face Verification.",
+    "info_about_service": "Los servicios proveen diferentes funcionalidades de reconocimiento facial. Cada servicio posee una API key que necesitas para realizar requests. Por favor elige el tipo de servicio acorde a las necesidades de tu negocio.",
+    "model_name_label": "Cómo te gustaria llamar a este servicio ?",
+    "model_type_label": "Que tipo de servicio es?",
+    "model_name": "Nombre de Servicio",
+    "create_dialog": {
+      "create": "Crear Servicio ",
+      "title": "Servicios",
+      "name": "Nombre"
+    },
+    "select_menu": {
+      "edit": "Editar",
+      "clone": "Clonar",
+      "delete": "Eliminar",
+      "test": "Test"
+    },
+    "edit_dialog": {
+      "title": "Editar Modelo",
+      "name": "Nombre",
+      "rename": "Renombrar"
+    },
+    "delete_dialog": {
+      "title": "Eliminar Modelo",
+      "warn_information": "y toda la información relacionada va a ser eliminada",
+      "confirmation_question": "Estas seguro que desea eliminar {{ entityType }}? Esta acción no puede revertirse. Escribe el nombre de {{ entityType }} para confirmar."
+    },
+    "search": {
+      "title": "Buscar servicio"
+    },
+    "mange_collection": "Administrar Colección",
+    "statistics_data_msg": "No Hay Datos Disponibles"
+  },
+  "users": {
+    "caption": "Tabla de usuarios",
+    "title": "Usuarios",
+    "user": "Usuario",
+    "delete": "Eliminar Usuario",
+    "role": "Rol",
+    "user_role": "Rol del Usuario",
+    "confirmation_dialog": {
+      "delete_confirmation_question": "Estas seguro que deseas eliminar este usuario? Esta acción no puede revertirse.",
+      "warning_msg_owner": "El usuario {{ user }} es DUEÑO de las aplicaciones: {{ applicationNames }}. Puedes eliminarlo igualmente. En este caso tu te convertiras en el DUEÑO de estas aplicaciones.",
+      "warning_msg_admin": "El usuario {{ user }} es DUEÑO de las aplicaciones: {{ applicationNames }}. Puedes eliminarlo igualmente. En este caso el DUEÑO de la aplicación sera el DUEÑO global."
+    },
+    "search": {
+      "org_title": "Buscar usuario",
+      "app_title": "Buscar usuario",
+      "no_results": "No se encontró resultados"
+    },
+    "create": {
+      "add_button": "Añadir Usuario"
+    },
+    "manage": {
+      "role_update": "Actualizar Rol",
+      "role_update_description": "Estas seguro que deseas reasignar el rol DUEÑO a otro usuario ? ",
+      "manage_users_title": "Administrar Usuarios",
+      "warning_txt": "Todos los usuarios registrados de CompreFace exceptuando el primero no veran ninguna aplicación. Para proveer acceso necesitas añadirlos individualmente a cada aplicación. El Dueño Global y Administrador Global tienen acceso completo a todas las aplicaciones.",
+      "no_data": "No hay datos disponibles",
+      "search_label": "Buscar Usuarios",
+      "user_name": "Nombre de Usuario",
+      "users": "Nombres",
+      "emails": "Emails",
+      "roles": "Roles",
+      "save": "Guardar"
+    }
+  },
+  "org_users": {
+    "confirm_dialog": {
+      "title": "Detener Carga",
+      "confirmation_question": "Tienes imagenes cargando en segundo plano. Si abandonas la página, la carga se cancelará. Realmente quieres salir de la página?"
+    },
+    "delete_dialog": {
+      "title": "Eliminar {{type}}",
+      "confirmation_question": "Estas seguro que quieres eliminar {{name}} {{lastName}} de tu proyecto?",
+      "warn_information": "El usuario {{firstName}} {{lastName}} es DUEÑO de las aplicaciones: ",
+      "warn_hint_anyway": "Puedes elminiarlo de cualquier manera.",
+      "warn_hint_owner": "En este caso tu te convertiras en el DUEÑO de estas aplicaciones.",
+      "warn_hint_new_owner": "En este caso el dueño de estas aplicaciones será: ",
+      "warn_hint_replace_to_owner": "En este caso el DUEÑO de la aplicación sera el DUEÑO global",
+      "default_confirmation": "{{type}} {{name}} y todos los datos relacionados seran eliminados.\nEstas seguro?"
+    },
+    "add_users_info": " Ahora eres el único usuario de CompreFace. Cuando otros usuarios se registren, apareceran en esta lista. Tú, como dueño, seras capaz de darles privilegios para administrar el sistema o aplicaciones individuales.",
+    "edit_user_info": "La información del usuario se actualizó correctamente"
+  },
+  "side_menu": {
+    "dashboard": "Tablero",
+    "face_collection": "Colección",
+    "test": "Test"
+  },
+  "model_info": {
+    "copy_key": "Copiar Api Key",
+    "service_info": "Información del Servicio",
+    "created_on": "Creado en",
+    "service_name": "Nombre del Servicio",
+    "service_type": "Tipo del servicio",
+    "total_images": "Total de Imágenes",
+    "total_faces": "Total de Caras"
+  },
+  "app_users": {
+    "add_users_info": "Todos los usuarios registrados de CompreFace exceptuando el primero no veran ninguna aplicación. Para proveer acceso necesitas añadirlos individualmente a cada aplicación. El Dueño Global y Administrador Global tienen acceso completo a todas las aplicaciones.",
+    "add_user_dialog": {
+      "email_hint": "Email es obligatorio"
+    },
+    "delete_dialog": {
+      "title": "Eliminar Usuario",
+      "confirmation_question": "Estas seguro que deseas eliminar el usuario {{name}} de {{application}}?"
+    }
+  },
+  "breadcrumbs": {
+    "home": "Inicio"
+  },
+  "dnd": {
+    "title": "Selecciona o Arrastra y suelta aqui tu {{typeImage}}",
+    "label": "Extensiones de imagenes disponibles: jpeg, jpg, png, webp \nTamaño maximo de imágenes =",
+    "test": "Modelo de prueba",
+    "add": "Añadir a modelo",
+    "train": "Entrenar modelo",
+    "recognize": "Reconocer Cara",
+    "image": "imagen",
+    "target": "imagen destino",
+    "source": "imagen fuente"
+  },
+  "test_model": {
+    "title": "Modelo de Prueba",
+    "request": "Request",
+    "response": "Response"
+  },
+  "demo": {
+    "title": "Demo",
+    "link": "Probar Demo"
+  },
+  "face_recognition_container": {
+    "file_size_error": "El archivo es muy grande",
+    "file_unavailable_extension": "El archivo {{filename}} posee una extension no disponible"
+  },
+  "face_recognition": {
+    "no_recognized": "Ninguna cara reconocida",
+    "no_faces_in_collection": "Ninguna cara cargada a la Colección de Caras"
+  },
+  "auth": {
+    "incorrect_credentials": "Email o Contraseña es incorrecta.",
+    "already_in_use": "Este email ya esta en uso.",
+    "new_account_confirm_email": "Creaste una cuenta nueva, favor confirmar tu email",
+    "new_account_login": "Creaste una cuenta nueva exitosamente",
+    "change_password_success": "Contraseña nueva actualizada correctamente"
+  },
+  "application": {
+    "created": "Aplicación creada exitosamente!",
+    "edited": "Aplicación editada exitosamente!",
+    "deleted": "Aplicación eliminada exitosamente!"
+  },
+  "create_application_wizard": {
+    "application": {
+      "title": "Crea tu aplicación",
+      "info_about_application": "Una aplicación es donde puedes crear y administrar tus servicios de reconocimiento. Te permite restringir su visibilidad a otros usuarios",
+      "application_name_question": "Como te gustaria llamar a la aplicación ?",
+      "application_name": "Nombre de la aplicación",
+      "error_msg": "Nombre de la aplicación no es único",
+      "next": "Siguiente"
+    },
+    "service": {
+      "title": "Añadir servicio",
+      "info_about_service": "Los servicios proveen diferentes funcionalidades de reconocimiento facial. Cada servicio posee una API key que necesitas para realizar requests. Por favor elige el tipo de servicio acorde a las necesidades de tu negocio.",
+      "service_name_question": "Como te gustaria llamar a eset servicio ?",
+      "service_name": "Nombre del servicio",
+      "service_type": "Que tipo de servicio es?",
+      "create_btn": "Crear Servicio",
+      "recognition": "Reconocimiento",
+      "detection": "Detección",
+      "verification": "Verificación",
+      "recognition_type": "El servicio de Reconocimiento se utiliza para la identificación de caras. Primero necesitas subir las caras conocidas a la colección y luego reconocer las caras desconocidas entre ellas.",
+      "detection_type": "El servicio de Detección se utiliza para detectar todas las caras en la imagen. No reconoce caras, solo las ubica en la imagen.",
+      "verification_type": "El servicio de Verificación se utiliza para confirmar si la persona es la correcta. El servicio compara dos caras que envias al endpoint y retorna su similitud."
+    }
+  },
+  "application_user_list": {
+    "invitation_sent": "Invitación enviada a {{userEmail}}",
+    "required_msg": "Este campo es obligatorio"
+  },
+  "manage_collection": {
+    "header": "Sujetos",
+    "error_msg": "Sujeto con este nombre ya existe",
+    "bulk_select": "Selección",
+    "cancel_select": "Cancelar",
+    "delete": "Eliminar",
+    "left_side": {
+      "add_subject": "Añadir Sujeto",
+      "search": "Buscar...",
+      "modal_title": "Sujeto",
+      "subject_name": "Nombre del Sujeto",
+      "name": "Un Nombre"
+    },
+    "right_side": {
+      "title": "Unir Sujetos",
+      "profile": "Perfil personal:",
+      "edit_subject": "Sujeto",
+      "delete_subject": "Sujeto",
+      "join_subjects": "Unir",
+      "cancel_changes": "Cancelar",
+      "join_message": "Sujeto con el mismo nombre ya existe.",
+      "examples": "Ejemplos:",
+      "selected_examples": "Seleccionar ejemplos:",
+      "empty_message": "No hay sujeto para mostrar. Selecciona/añade uno.",
+      "control_button_delete_title": "Eliminar sujeto",
+      "control_button_edit_title": "Editar sujeto",
+      "control_button_bulk-select_title": "Ingresar al modo de selección",
+      "control_button_bulk-select-exit_title": "Salir del modo de selección",
+      "control_button_bulk-delete_title": "Eliminar selección",
+      "modal_bulk-delete_type": "Ejemplos",
+      "modal_bulk-delete_name": " item(s)",
+      "control_button_tooltip": "Carga en progreso"
+    },
+    "confirmation_dialog": {
+      "delete_examples_confirmation_question": "Estas seguro que deseas eliminar estos Ejemplos? Esta acción no puede revertirse.",
+      "delete_subject_confirmation_question": "Estas seguro que deseas eliminar este Sujeto? Esta acción no puede revertirse."
+    }
+  },
+  "Server_Status": {
+    "Admin": "Admin node",
+    "Api": "Api node",
+    "Core": "Core node",
+    "Loading": "loading ...",
+    "Title": "CompreFace is starting ..."
+  },
+  "month": {
+    "January": "Enero",
+    "February": "Febrero",
+    "March": "Marzo",
+    "April": "Abril",
+    "May": "Mayo",
+    "June": "Junio",
+    "July": "Julio",
+    "August": "Agosto",
+    "September": "Septiembre",
+    "October": "Octubre",
+    "November": "Noviembre",
+    "December": "Diciembre"
+  },
+  "tooltip": {
+    "upload_new_image": "Cargar nueva imagen",
+    "clear_image": "Limpiar resultados",
+    "show_landmarks": "Mostrar puntos de referencia",
+    "show_pose": "Mostrar pose"
+  }
+}

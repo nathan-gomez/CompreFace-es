@@ -8,6 +8,10 @@ services:
     image: ${registry}compreface-postgres-db:${POSTGRES_VERSION}
     restart: always
     container_name: "compreface-postgres-db"
+    # build:
+    #   context: ./db
+    ports:
+      - "6432:5432"
     environment:
       - POSTGRES_USER=${postgres_username}
       - POSTGRES_PASSWORD=${postgres_password}
@@ -18,7 +22,14 @@ services:
   compreface-admin:
     restart: always
     image: ${registry}compreface-admin:${ADMIN_VERSION}
+    # build:
+    #   context: ./java
+    #   dockerfile: ./dev/Dockerfile
+    #   target: frs_crud
     container_name: "compreface-admin"
+    ports:
+      - "8081:8080"
+      # - "5006:5005" # Uncomment this port mapping for application debug
     environment:
       - POSTGRES_USER=${postgres_username}
       - POSTGRES_PASSWORD=${postgres_password}
@@ -39,7 +50,16 @@ services:
   compreface-api:
     restart: always
     image: ${registry}compreface-api:${API_VERSION}
+    # build:
+    #   context: ../java
+    #   dockerfile: ./dev/Dockerfile
+    #   target: frs_core
+    #   args:
+    #     - ND4J_CLASSIFIER=${ND4J_CLASSIFIER}
     container_name: "compreface-api"
+    ports:
+      - "8082:8080"
+      # - "5005:5005" # Uncomment this port mapping for application debug
     depends_on:
       - compreface-postgres-db
     environment:
@@ -57,6 +77,9 @@ services:
   compreface-fe:
     restart: always
     image: ${registry}compreface-fe:${FE_VERSION}
+    build:
+      context: ./ui
+      dockerfile: docker-prod/Dockerfile
     container_name: "compreface-ui"
     ports:
       - "8000:80"
@@ -72,14 +95,13 @@ services:
     restart: always
     image: ${registry}compreface-core:${CORE_VERSION}
     container_name: "compreface-core"
+    ports:
+      - "3300:3000"
+    # build:
+    #   context: ./embedding-calculator
     environment:
       - ML_PORT=3000
       - IMG_LENGTH_LIMIT=${max_detect_size}
       - UWSGI_PROCESSES=${uwsgi_processes:-2}
       - UWSGI_THREADS=${uwsgi_threads:-1}
-    healthcheck:
-      test: curl --fail http://localhost:3000/healthcheck || exit 1
-      interval: 10s
-      retries: 0
-      start_period: 0s
-      timeout: 1s
+

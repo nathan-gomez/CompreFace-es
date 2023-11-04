@@ -25,9 +25,10 @@ import { AppSearchTableComponent } from './app-search-table.component';
 import { MatButtonModule } from '@angular/material/button';
 import { TruncateModule } from 'src/app/ui/truncate-pipe/truncate.module';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { SecretKeyGeneratorComponent } from '../../secret-key-generator/secret-key-generator.component';
 
 @NgModule({
-  declarations: [AppSearchTableComponent],
+  declarations: [AppSearchTableComponent, SecretKeyGeneratorComponent],
   exports: [AppSearchTableComponent],
   imports: [CommonModule, TranslateModule, MatIconModule, FormsModule, MatInputModule, MatButtonModule, TruncateModule, MatTooltipModule],
 })
